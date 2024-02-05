@@ -18,6 +18,7 @@ public class ConsumerTest {
         factory.setPassword("123321");
         // 1.2.建立连接
         Connection connection = factory.newConnection();
+        System.out.println("log");
 
         // 2.创建通道Channel
         Channel channel = connection.createChannel();
