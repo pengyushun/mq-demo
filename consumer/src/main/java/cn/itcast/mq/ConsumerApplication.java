@@ -13,7 +13,7 @@ public class ConsumerApplication {
     }
     @Bean
     public MessageConverter messageConverter(){
-        System.out.println("我是主分支1");
+        System.out.println("我是傻逼主分支");
         return new Jackson2JsonMessageConverter();
 
     }
