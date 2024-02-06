@@ -14,6 +14,7 @@ public class PublisherApplication {
 
     @Bean
     public MessageConverter messageConverter(){
+        System.out.println("sw");
         return new Jackson2JsonMessageConverter();
     }
 }
