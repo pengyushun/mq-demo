@@ -16,6 +16,7 @@ public class ConsumerApplication {
         System.out.println("我是傻逼主分支");
         System.out.println("我是聪明1分支");
         System.out.println("我是聪明1分支");
+        System.out.println("我是2024.2.29 的新增添加");
         return new Jackson2JsonMessageConverter();
 
     }
